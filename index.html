@@ -4,106 +4,52 @@
 <meta charset="UTF-8">
 <title>GMRT Enterprises</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="GMRT Enterprises builds simple, thoughtful mobile apps for wellness, focus, and play.">
-<style>
-  :root {
-    --bg: #f7f8f8;
-    --surface: #ffffff;
-    --text: #1a2a2a;
-    --text-muted: #5a6a6a;
-    --accent: #2f7a82;
-    --border: #e2e8e8;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #0e1616;
-      --surface: #16201f;
-      --text: #e8efef;
-      --text-muted: #9fb0b0;
-      --accent: #4fb3bd;
-      --border: #24312f;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.65;
-    -webkit-font-smoothing: antialiased;
-  }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 72px 24px 96px; }
-  header { margin-bottom: 56px; }
-  .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: var(--accent);
-    margin: 0 0 8px;
-  }
-  .tagline { color: var(--text-muted); font-size: 1.05rem; margin: 0; }
-  h2 {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.09em;
-    color: var(--text-muted);
-    margin: 48px 0 16px;
-  }
-  p { margin: 0 0 16px; }
-  .apps { display: grid; gap: 16px; }
-  .app {
-    display: block;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 20px 22px;
-    text-decoration: none;
-    color: inherit;
-    transition: border-color 0.15s ease;
-  }
-  .app:hover { border-color: var(--accent); }
-  .app-name { font-weight: 650; font-size: 1.1rem; margin: 0 0 4px; }
-  .app-desc { color: var(--text-muted); font-size: 0.95rem; margin: 0; }
-  .app-status { color: var(--text-muted); font-size: 0.85rem; margin: 4px 0 0; }
-  a { color: var(--accent); }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--border);
-    color: var(--text-muted);
-    font-size: 0.9rem;
-  }
-</style>
+<meta name="description" content="GMRT Enterprises is an independent software studio building focused, respectful mobile apps for wellness, focus, and play.">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<nav class="site-nav">
+  <div class="inner">
+    <a class="brand" href="/">GMRT Enterprises</a>
+    <div class="nav-links">
+      <a href="/" class="active">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/apps.html">Apps</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
 <div class="wrap">
-  <header>
-    <p class="logo">GMRT Enterprises</p>
-    <p class="tagline">Simple, thoughtful mobile apps for wellness, focus, and play.</p>
+  <header class="page-header">
+    <h1>Software, made with intent.</h1>
+    <p class="tagline">GMRT Enterprises is an independent studio building focused mobile apps for wellness, focus, and play &mdash; designed to respect the people who use them.</p>
   </header>
 
-  <p>GMRT Enterprises is an independent app studio. We design and publish focused mobile applications for iOS and Android, built to do one thing well and respect the people who use them &mdash; no clutter, no dark patterns.</p>
+  <p>We build small, and we build things that matter to the people using them. Every product we ship starts from a simple question: what does this person actually need right now, and how do we get out of their way while they do it? That question shapes everything from our feature lists to our interface design to the data we choose not to collect.</p>
 
-  <h2>Our Apps</h2>
+  <p>We're not interested in engagement metrics for their own sake, dark patterns that trick people into subscriptions, or apps stuffed with features nobody asked for. We'd rather ship something small and honest than something large and hollow.</p>
+
+  <h2>What We're Working On</h2>
   <div class="apps">
     <a class="app" href="https://apps.apple.com/us/app/calm-and-clear/id6804903688">
       <p class="app-name">Calm &amp; Clear</p>
-      <p class="app-desc">Mood check-ins, guided breathing, focus timers, and CBT-inspired tools to help you feel calm and clear.</p>
-      <p class="app-status">Available on the App Store &middot; coming soon to Google Play</p>
+      <p class="app-desc">A wellness and study-habit companion &mdash; mood check-ins, guided breathing, a Pomodoro focus timer, and CBT-inspired reframing exercises, built to help people build small, steady habits.</p>
+      <p class="app-status">Available now on the App Store &middot; in testing on Google Play</p>
     </a>
     <div class="app">
       <p class="app-name">Blockwell</p>
-      <p class="app-desc">A clean, endless block-puzzle game with daily challenges and cosmetic themes.</p>
-      <p class="app-status">In development</p>
+      <p class="app-desc">A clean, endless block-puzzle game with a daily challenge mode and cosmetic themes &mdash; built to be a satisfying few minutes, not an attention trap.</p>
+      <p class="app-status">In closed testing on Google Play</p>
     </div>
   </div>
 
-  <h2>Contact</h2>
-  <p>General inquiries and support: <a href="mailto:antrone.turner@gmail.com">antrone.turner@gmail.com</a></p>
+  <p><a href="/apps.html">See what's inside each app &rarr;</a></p>
 
-  <footer>
-    &copy; 2026 GMRT Enterprises. All rights reserved.
+  <h2>Our Approach</h2>
+  <p>Every app we publish carries a real privacy policy and terms of service, is tested by real people before it ships to the public, and is built by a small team that reads every piece of feedback that comes in. Learn more about <a href="/about.html">who we are</a>, or <a href="/contact.html">get in touch</a> if you have a question, a bug report, or an idea.</p>
+
+  <footer class="site-footer">
+    &copy; 2026 GMRT Enterprises. All rights reserved. &middot; <a href="/contact.html">Contact</a>
   </footer>
 </div>
 </body>
